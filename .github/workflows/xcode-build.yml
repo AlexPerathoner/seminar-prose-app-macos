@@ -31,7 +31,7 @@ jobs:
         run: |
           xcodebuild clean test \
           -project Prose.xcodeproj \
-          -scheme UITests \
+          -scheme Prose \
           -destination platform=macOS \
           -resultBundlePath TestResults \
           -test-iterations 15 \
